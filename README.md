@@ -16,6 +16,27 @@ Boundary Conditions:
 - walls with slip around the domain
 - no slip at the truck surface
 
+
+               _________________________
+              /.                       /|
+             / .                      / |
+            /  .                     /  |
+           /   .                    /   |
+          /    .                   /    |
+	       /     .                  /     |
+	      /      .                 /      |
+       /________________________/       |
+       |       .................|.......|
+       |       .                |       /
+       |      .                 |      /
+       |     .         __       |     /
+       |    .        /__/|      |    /
+       |   .         |__|/      |   /
+       |  .                     |  /
+       | .                      | /
+       |._______________________|/
+       
+
 Steps to improve the Project:
 - model the rotating wheels
 - generate more accurate vehicle models
