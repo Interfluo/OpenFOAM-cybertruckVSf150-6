@@ -20,3 +20,11 @@ Steps to improve the Project:
 - model the rotating wheels
 - generate more accurate vehicle models
 - greatly refine the mesh and increase the domain size
+
+Commands to run any Case:
+- blockMesh (create base mesh for domain)
+- snappyHexMesh (carve out the geometry and refine)
+- decomposePar (decompose the mesh)
+- mpirun -np 6 pisoFoam -parallel (run the solver in parallel on 6 cores)
+- ReconstructPar (recombine the decomposed results at every time-step)
+- touch results.foam (create a results file)
