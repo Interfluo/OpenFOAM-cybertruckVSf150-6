@@ -23,10 +23,10 @@ addLayers       off;
 
 geometry
 {
-    cybertruck
+    f150
     {
         type triSurfaceMesh;
-        file "cybertruck.obj";
+        file "f150.obj";
     }
 };
 
@@ -39,7 +39,7 @@ castellatedMeshControls
 
     refinementSurfaces
     {
-        cybertruck
+        f150
         {
             level (3 3);
         }
@@ -65,7 +65,7 @@ addLayersControls
 {
     layers
     {
-        "cybertruck.*"
+        "f150.*"
         {
             nSurfaceLayers 4;
         } 
